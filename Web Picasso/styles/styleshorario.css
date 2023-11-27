@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    background-image: url("../images/Instituto.jpg");
+    background-size: auto;
+}
+
+.botonVolver {
+color: darkblue;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 160, 3, 0.475);
+    padding: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
+    color: antiquewhite;
+} 
+
+table {
+    color: rgba(0, 254, 55, 0.442);
+    text-align: center;
+    border: 10px solid rgba(0, 163, 11, 0.495);
+    padding: 3px solid rgba(13, 154, 0, 0.466);
+    margin: auto;
+    border-radius: 20px;
+}
+
+th{
+    font-family: 'Mooli', sans-serif;
+    color: rgba(6, 6, 6, 0.948);
+    border: 5px solid rgba(10, 142, 5, 0.5);
+    background-color: rgba(0, 255, 255, 0.407);
+}
+
+td {
+    color: rgba(0, 164, 30, 0.433);
+    height: 5vh;
+    border: 2px solid rgba(0, 160, 3, 0.475);
+}
+
+#recreo {
+    font-family:monospace;
+    text-align: center;
+    letter-spacing: 80pt;
+    color: black;
+    font-size: 10mm;
+    background-color: rgba(0, 255, 255, 0.407);
+}
+
+.fol {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(155, 71, 233); 
+}
+
+.prog {
+    color: black;
+    font-weight: bold;
+    background-color: #383951;
+}
+
+.sist {
+    color: black;
+    font-weight: bold;
+    background-color: #14a2b8;
+}
+
+.bd {
+    color: black;
+    font-weight: bold;
+    background-color: lightslategrey;
+}
+
+.marca {
+    color:black;
+    font-weight: bold;
+    background-color: #007d93;
+}
+
+.entorno {
+    color: black;
+    font-weight: bold;
+    background-color: #7d67da;
+}

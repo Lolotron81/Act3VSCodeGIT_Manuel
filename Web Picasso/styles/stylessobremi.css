@@ -1,0 +1,154 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Evitar la barra de desplazamiento horizontal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Asegura que la página sea al menos del alto de la ventana */
+}
+
+/* Establecer un ancho máximo para la página */
+body, .seccion, nav {
+    max-width: 1200px; /* Establece el ancho máximo que prefieras */
+    width: 100%;
+    margin: 0 auto; /* Centrar la página horizontalmente en la ventana */
+}
+
+.botonVolver {
+    color: darkblue;
+    display: flex;
+    justify-content: left;
+    }
+
+/* Barra lateral de navegación */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #333;
+    color: #eab9b9;
+    padding: 10px;
+}
+
+/* Estilos para los enlaces internos en la barra de navegación */
+nav a {
+    color: #fbc8c8;
+    text-decoration: none;
+    display: block; /* Hacer que los enlaces ocupen todo el ancho de la barra */
+    padding: 10px;
+    transition: background-color 0.3s; /* Agregar una transición suave */
+}
+
+nav a:hover {
+    background-color: #555; /* Cambiar el color de fondo al pasar el ratón por encima */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px 0;
+}
+
+/* Estilos para las secciones */
+.seccion {
+    width: 100%;
+    height: 100vh; /* 100% del alto de la ventana */
+    margin-left: 20px; /* Añade un margen izquierdo para dar espacio a la barra de navegación */
+    padding: 10px;
+}
+
+/* Estilos para el contenido dentro de las secciones */
+.seccion h1, .seccion p {
+    margin-top: 20px; /* Añade un margen superior para evitar superposición con la barra de navegación */
+}
+
+/* Estilos para la primera sección */
+#seccion1 {
+    background-color: rgb(243, 139, 107);
+    padding: 20px;
+    max-width: 100%;
+}
+
+/* Estilos para las imágenes */
+#seccion1 img {
+    max-width: 400px; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
+    margin: 10px; /* Añade un margen entre las imágenes */
+    margin-top: 50px;
+}
+
+.contenedorImagenes {
+    display: flex;
+    flex-direction: row; /* Alineación horizontal */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* Estilos para las imágenes */
+.contenedorImagenes img {
+    max-width: 300px; /* Ajusta el ancho máximo de las imágenes según tus necesidades */
+    margin: 10px; /* Añade un margen entre las imágenes */
+}
+
+/* Estilos para la segunda sección */
+#seccion2 {
+    background-color: #9edbf2;
+
+    padding: 20px;
+    flex-direction: column; /* Alineación en columna */
+    align-items: center; /* Alinear a la izquierda horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    text-align: center;
+}
+
+/* Estilos para el formulario */
+#seccion2 form {
+    display: flex;
+    flex-direction: column; /* Alineación en columna */
+    align-items: center; /* Centrar horizontalmente */
+}
+
+/* Estilos para las etiquetas de los campos */
+#seccion2 form label {
+    text-align: center; /* Centrar texto horizontalmente */
+}
+
+/* Estilos para los campos de entrada */
+#seccion2 form input {
+    width: 100%; /* Ajustar el ancho al 100% del contenedor */
+    padding: 5px; /* Agregar espacio interno */
+    margin: 5px 0; /* Agregar margen vertical */
+}
+
+.proteccionDatos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#despedida {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+label, input {
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+
+

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+.letras {
+    color: rgb(60, 199, 60);
+    margin-left: 20px;
+}
+
+.letras2 {
+    color: grey;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+.barraNavegacion {
+    background-color: rgb(11, 137, 14);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    height: 10vh;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.horario {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    margin: 20px;
+}
+
+.sobremi {
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.contenido {
+    margin: 40px;
+    margin-top: 12px;
+}
+
+.pie {
+    background-color: black;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    bottom: 0;
+    position: absolute;
+    width: 100vw;
+}
